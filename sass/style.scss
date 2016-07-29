@@ -1,0 +1,35 @@
+/*===== General =====*/
+body {
+	background-color: $color-bones;
+}
+
+/*===== Textos =====*/
+.title { //Títulos
+	@include titulos (bold, $color-primary, Oswald, uppercase, center);
+	@include padding-sections (3%, 3%);
+}
+
+
+/*===== Barra de Idiomas =====*/
+nav {
+	background-color: $color-nav !important;
+	& li:hover {
+		background-color:$color-secondary;
+	}	
+}
+
+
+//Barra de capacidad
+.determinate {
+	width: 70%;
+}
+
+
+
+.center {  //Centrar elementos
+	transform: translate(-50%, -50%);
+}
+
+.progreso {
+	@include padding-sections (5%, 3%);
+}

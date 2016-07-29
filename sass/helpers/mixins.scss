@@ -1,0 +1,20 @@
+/*===== Espacios =====*/
+@mixin padding-sections ($top, $bottom) {
+	padding-top: $top;
+	padding-bottom: $bottom;
+}
+
+/*===== Textos =====*/
+@mixin parrafos ($size , $color, $font-fam) {
+	font-size: $size;
+	color: $color;
+	font-family: $font-fam;
+}
+
+@mixin titulos ($weight , $color, $font-fam, $transform, $align) {
+	font-weight: $weight;
+	color: $color;
+	font-family: $font-fam;
+	text-transform: $transform;
+	text-align: $align;
+}
