@@ -1,5 +1,5 @@
 <?php 
-$dir = (isset($_GET['dir']))?$_GET['dir']:"C:/xampp/htdocs/pruebas_descarga/archivos/"; //Crea la variable directorio, que busca los archivos de la ruta especificada 
+$dir = (isset($_GET['dir']))?$_GET['dir']:"C:/xampp/htdocs/pruebas_descarga/archivos_prueba/"; //Crea la variable directorio, que busca los archivos de la ruta especificada 
 $directorio=opendir($dir); // abre directorio
 while ($archivo = readdir($directorio)) { // mientras la variable archivo sea igual a la lectura del directorio
 	$megas = round(filesize("$dir/$archivo") / 1048576, 1);

@@ -85,13 +85,13 @@
 					<h5 class="center-align title">Descargar Todo</h5>
 				</div>		
 				<div class="col s2">
-					<a class='btn btn-large waves-effect waves-light' href='<?php include ("comprimir_descargar.php"); ?>'><i class="material-icons">file_download</i></a>
+					<a class='btn btn-large waves-effect waves-light' href="descargar_todos.php"><i class="material-icons">file_download</i></a>
 				</div>
 				<div class="col s4">
 					<h5 class="center-align title">Eliminar Todo</h5>
 				</div>		
 				<div class="col s2">
-					<a class="btn btn-large waves-effect waves-light" href="<?php include ("borrar_archivos_directorio.php"); ?>"><i class="material-icons">delete_forever</i></a>
+					<a class="btn btn-large waves-effect waves-light" href="borrar_archivos_directorio.php"><i class="material-icons">delete_forever</i></a>
 				</div>
 			</div>	
 		</div>
